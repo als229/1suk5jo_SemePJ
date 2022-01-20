@@ -75,7 +75,7 @@
             </ul>    
        
         <div class="header_logo">
-            <a href="<%=contextPath%>"><img src="views/common/image/logo.jpg"></a>
+            <a href="<%=contextPath%>"><img src="<%= contextPath %>/resources/img/logo.jpg"></a>
         </div>
     </div>	
 	
@@ -85,7 +85,7 @@
         <div class="menu"><a href="https://www.16personalities.com/ko/%EB%AC%B4%EB%A3%8C-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%EA%B2%80%EC%82%AC" target="_blank">MBTI 검사하기</a></div>
         <div class="menu"><a href="">알콩달콩 데이트코스</a></div>
         <div class="menu"><a href="">알콩달콩 커플 후기</a></div>
-        <div class="menu"><a href="">Event</a></div>
+        <div class="menu"><a href="<%= contextPath %>/eventlist.ev">Event</a></div>
     </div>
 
 
