@@ -4,7 +4,10 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <meta charset="UTF-8">
+
+<title>관리자페이지</title>
 <style>
 div {
    /*border: solid pink 1px;*/
@@ -29,7 +32,6 @@ div {
 
 
 </style>
-<title>관리자페이지</title>
 </head>
 <body>
 
@@ -73,14 +75,14 @@ div {
       <!-- Page Content -->
       <div>
 
-         <div class="w3-container w3-teal" style="margin-left: 20%; height: 80px;">
-            <h1>공지사항 관리</h1>
-         </div>
+        <div class="w3-container w3-teal" style="margin-left: 20%; height: 80px;">
+           <h1>관리자 페이지</h1>
+        </div>
 
 
-         <div class="w3-container"></div>
+        <div class="w3-container"></div>
 
-      </div>
+     </div>
 
 
    
