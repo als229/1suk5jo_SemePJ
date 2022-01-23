@@ -1,11 +1,16 @@
 package com.comebackisok.event.controller;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.comebackisok.event.model.service.EventService;
+import com.comebackisok.event.model.vo.EventBoard;
 
 /**
  * Servlet implementation class EventListController
@@ -27,8 +32,11 @@ public class EventListController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-	
-		request.getRequestDispatcher("").forward(request, response);
+		ArrayList<EventBoard> list = new EventService().SelcetEventList();
+		
+		
+		
+		request.getRequestDispatcher("views/event/eventList.jsp").forward(request, response);
 	}
 
 	/**

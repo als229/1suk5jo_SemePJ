@@ -21,7 +21,7 @@
             margin-top: 50px;
             width: 1200px;
             height: 1300px;
-            margin: auto;
+            margin-left: 320px;
         }
 
         .adminMemberList-outer div {
@@ -56,6 +56,10 @@
 
         #realdelete{
             overflow: auto;
+        }
+        .detailForm:hover{
+            cursor: pointer;
+            opacity: 0.6;
         }
     </style>
 </head>
@@ -92,12 +96,11 @@
                 </span>
             </div>
             <span style="float: right;">
-                <button class="btn btn-sm btn-primary "
-                    style="background-color: lightpink; border:1px solid lightpink;">회원보기</button>
+
             </span>
             <span style="float: right; margin-right: 15px;">
                 <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#memberdelete"
-                    style="background-color: lightpink; border:1px solid lightpink;">회원삭제</button>
+                    style="background-color: lightpink; border:1px solid lightpink; margin-right: 30px;">회원삭제</button>
             </span>
         </div>
         <div class="adminMember-list">
@@ -116,10 +119,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -129,10 +132,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -142,10 +145,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -155,10 +158,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -168,10 +171,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -181,10 +184,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -194,10 +197,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -207,10 +210,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -220,10 +223,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -233,10 +236,10 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
-                    <td>1</td>
-                    <td>minsun123</td>
-                    <td>김선민</td>
-                    <td>min@naver.com</td>
+                    <td class="detailForm">1</td>
+                    <td class="detailForm">minsun123</td>
+                    <td class="detailForm">김선민</td>
+                    <td class="detailForm">min@naver.com</td>
                     <td>2022.01.15</td>
                     <td>17개</td>
                     <td>2개</td>
@@ -244,6 +247,7 @@
                             data-bs-toggle="modal" data-bs-target="#detailCoupon">상세</button></td>
 
                 </tr>
+
 
 
             </table>
@@ -332,40 +336,13 @@
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">나가기</button>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                      data-bs-target="#realdelete">삭제하기</button>
+                  <button type="button" class="btn btn-primary" onclick="location.href=location.href">삭제하기</button>
               </div>
           </div>
       </div>
   </div>
 
-  <!-- Button trigger modal -->
 
-
-  <!-- Modal -->
-  <div class="modal fade" id="realdelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">회원 삭제하기</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  회원이 삭제되었습니다.
-              </div>
-              <div class="modal-footer">
-
-                  <button type="button" class="btn btn-primary" >확인</button>
-              </div>
-          </div>
-      </div>
-  </div>
-  <script>
-      $(document).on("click", "#realdelete", function (event) {
-          
-      });
-  </script>
 
     <br><br><br><br>
 </body>

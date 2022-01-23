@@ -293,7 +293,7 @@
                     <button class="btn btn-lg btn-primary" style="background-color: lightpink; border: lightpink;">확인</button>
 				</div>
 				<div class="back-button" style="text-align: right;">
-                    <button  class="btn btn-lg btn-primary" style="background-color: lightpink; border: lightpink;">뒤로가기</button>
+                    <button  class="btn btn-lg btn-primary" style="background-color: lightpink; border: lightpink; margin-right: 30px; margin-top: 100px;">뒤로가기</button>
 				</div>
 
 			</div>

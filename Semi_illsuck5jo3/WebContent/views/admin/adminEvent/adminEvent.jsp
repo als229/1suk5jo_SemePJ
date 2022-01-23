@@ -18,9 +18,10 @@
     }
     .adminEvent-outer{
         margin-top: 50px;
+        margin-left: 300px;
         width: 1200px ;
         height: 1000px ;
-        margin: auto;
+
     }
     .event-header{
         height: 10%;
@@ -58,6 +59,10 @@
     table{
         border: 1px solid gray;
     }
+    #title:hover{
+        cursor: pointer;
+        opacity :0.6;
+    }
 
 </style>
 </head>
@@ -70,13 +75,13 @@
             <h1>이벤트 관리</h1>
        </div>
        <div class="event-button" align="right">
-            <button class="btn btn-sm btn-danger">이벤트 작성</button>
-            <button class="btn btn-sm btn-danger">이벤트 수정</button>
-            <button class="btn btn-sm btn-danger"  data-bs-toggle="modal" data-bs-target="#deleteEvent">이벤트 삭제</button>
+            <button class="btn btn-sm btn-primary" onclick="location.href='<%=request.getContextPath() %>/views/admin/adminEvent/adminEventInsertForm.jsp'">이벤트 작성</button>
+            <button class="btn btn-sm btn-primary">이벤트 수정</button>
+            <button style="margin-right: 80px;" class="btn btn-sm btn-primary"  data-bs-toggle="modal" data-bs-target="#deleteEvent">이벤트 삭제</button>
        </div>
        <div class="event-content">
            <div class="event-table">
-            <table class="table table-striped">
+            <table class="table table-striped" style="width: 1100px;">
                 <tr>
                     <th>선택</th>
                     <th>번호</th>
@@ -85,60 +90,104 @@
                     <th>상태</th>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox"></th>
-                    <th>4</th>
-                    <th>2022.01.01</th>
-                    <th>홍말똥 전시회</th>
-                    <th>진행중</th>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
                 </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>2022.01.01</td>
+                    <td id="title">홍말똥 전시회</td>
+                    <td>진행중</td>
+                </tr>
+
+                
             </table>
     
            </div>
        </div>
-       <div class="paging">
-
+       <div class="paging" style="margin-left: 450px;">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item"><a class="page-link" href="#">7</a></li>
+              <li class="page-item"><a class="page-link" href="#">8</a></li>
+              <li class="page-item"><a class="page-link" href="#">9</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
        </div>
 
 <!-- Button trigger modal -->
